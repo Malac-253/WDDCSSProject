@@ -70,7 +70,7 @@ body
     margin: 1px;   
 }
     /*div day-box -> day-box PREP*/
-    .day-box .PREP
+    .PREP
     {
         border: 1px solid; 
         border-color: #f39c12;
@@ -78,7 +78,7 @@ body
         margin: 1px;   
     }
         /*div day-box -> div PREP -> div day */
-        .day-box .PREP .day
+        .day
         {
             border: 1px solid; 
             border-color: #00a8ff;
@@ -86,7 +86,7 @@ body
             margin: 1px;   
         }
             /*div day-box -> div PREP -> div day -> div notes */
-            .day-box .PREP .day .notes
+            .notes
             {
                 border: 1px solid; 
                 border-color: #9c88ff;
@@ -94,7 +94,7 @@ body
                 margin: 1px;   
             }
         /*div day-box -> div PREP -> div .reading-box */
-        .day-box .PREP .reading-box
+        .reading-box
         {
             border: 1px solid; 
             border-color: #4cd137;
@@ -102,7 +102,7 @@ body
             margin: 1px;   
         }
             /*div day-box -> div PREP -> div .reading-box -> div reading  */
-            .day-box .PREP .reading-box .reading
+            .reading
             {
                 border: 1px solid; 
                 border-color: #487eb0;
@@ -110,7 +110,7 @@ body
                 margin: 1px;   
             }
                 /*div day-box -> div PREP -> div .reading-box -> div reading -> div assignment-label */
-                .day-box .PREP .reading-box .reading .assignment-label
+                .assignment-label
                 {
                     border: 1px solid; 
                     border-color: #e84118;
@@ -118,7 +118,7 @@ body
                     margin: 1px;   
                 }
         /*div day-box -> div PREP -> div prep-box */
-        .day-box .PREP .prep-box
+        .prep-box
         {
             border: 1px solid; 
             border-color: #273c75;
@@ -126,7 +126,7 @@ body
             margin: 1px;   
         }
             /*div day-box -> div PREP -> div prep-box -> a assignment_link*/
-            .day-box .PREP .prep-box .assignment_link
+            .assignment_link
             {
                 border: 1px solid; 
                 border-color: #487eb0;
@@ -134,7 +134,7 @@ body
                 margin: 1px;   
             }
                 /*div day-box -> div PREP -> div prep-box -> a -> div assignmentWidget ASSIGNED*/
-                .day-box .PREP .prep-box .assignmentWidget
+                .assignmentWidget
                 {
                     border: 1px solid; 
                     border-color: #2f3640;
@@ -142,7 +142,7 @@ body
                     margin: 1px;   
                 }
                 /*div day-box -> div PREP -> div prep-box -> a -> div -> div assignment-label*/
-                .day-box .PREP .prep-box .assignmentWidget .assignment-label
+                .assignment-label
                 {
                     border: 1px solid; 
                     border-color: #2fa540;
