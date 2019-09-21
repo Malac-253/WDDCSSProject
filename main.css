@@ -1,14 +1,170 @@
 body
 {
     background-color: #ecf0f1;
-    border: 5px solid; 
+    border: 1px solid; 
     padding: 10px;
     margin: 10;
 }
+/*div header*/
+.header
+{
+    border: 1px solid; 
+    padding: 1px;
+    margin: 1px;
+    border-color: #1abc9c;
+}
+    /*div header -> div person_info*/
+    .person_info
+    {
+        border: 1px solid; 
+        padding: 1px;
+        margin: 1px;
+        border-color: #1abc9c;
+    }
+    /*div header -> img person_image*/
+    .person_image
+    {
+        border: 1px solid; 
+        padding: 1px;
+        margin: 1px;
+        border-color: #f1c40f;
+    }
+    /*div header -> span username*/
+    .username
+    {
+        border: 1px solid; 
+        padding: 1px;
+        margin: 1px;
+        border-color: #16a085;
+    }
+/*div nav*/
+.nav
+{
+    border: 1px solid; 
+    padding: 1px;
+    margin: 1px;
+    border-color: #3498db;
+}
+    /*div nav -> a */
+    .nav > a
+    {
+        border: 1px solid; 
+        padding: 1px;
+        margin: 1px;
+        border-color: #8e44ad;
+    }
+/*div special*/
+.special
+{
+    border: 1px solid; 
+    padding: 1px;
+    margin: 1px;
+    border-color: #e74c3c;
+}
+/*div day-box*/
 .day-box
 {
     border: 1px solid; 
-    border-color: red;
+    border-color: #e67e22;
     padding: 1px;
     margin: 1px;   
 }
+    /*div day-box -> day-box PREP*/
+    .day-box .PREP
+    {
+        border: 1px solid; 
+        border-color: #f39c12;
+        padding: 1px;
+        margin: 1px;   
+    }
+        /*div day-box -> div PREP -> div day */
+        .day-box .PREP .day
+        {
+            border: 1px solid; 
+            border-color: #00a8ff;
+            padding: 1px;
+            margin: 1px;   
+        }
+            /*div day-box -> div PREP -> div day -> div notes */
+            .day-box .PREP .day .notes
+            {
+                border: 1px solid; 
+                border-color: #9c88ff;
+                padding: 1px;
+                margin: 1px;   
+            }
+        /*div day-box -> div PREP -> div .reading-box */
+        .day-box .PREP .reading-box
+        {
+            border: 1px solid; 
+            border-color: #4cd137;
+            padding: 1px;
+            margin: 1px;   
+        }
+            /*div day-box -> div PREP -> div .reading-box -> div reading  */
+            .day-box .PREP .reading-box .reading
+            {
+                border: 1px solid; 
+                border-color: #487eb0;
+                padding: 1px;
+                margin: 1px;   
+            }
+                /*div day-box -> div PREP -> div .reading-box -> div reading -> div assignment-label */
+                .day-box .PREP .reading-box .reading .assignment-label
+                {
+                    border: 1px solid; 
+                    border-color: #e84118;
+                    padding: 1px;
+                    margin: 1px;   
+                }
+        /*div day-box -> div PREP -> div prep-box */
+        .day-box .PREP .prep-box
+        {
+            border: 1px solid; 
+            border-color: #273c75;
+            padding: 1px;
+            margin: 1px;   
+        }
+            /*div day-box -> div PREP -> div prep-box -> a assignment_link*/
+            .day-box .PREP .prep-box .assignment_link
+            {
+                border: 1px solid; 
+                border-color: #487eb0;
+                padding: 1px;
+                margin: 1px;   
+            }
+                /*div day-box -> div PREP -> div prep-box -> a -> div assignmentWidget ASSIGNED*/
+                .day-box .PREP .prep-box .assignmentWidget ASSIGNED
+                {
+                    border: 1px solid; 
+                    border-color: #2f3640;
+                    padding: 1px;
+                    margin: 1px;   
+                }
+                /*div day-box -> div PREP -> div prep-box -> a -> div -> div assignment-label*/
+                .day-box .PREP .prep-box .assignmentWidget ASSIGNED .assignment-label
+                {
+                    border: 1px solid; 
+                    border-color: #2fa540;
+                    padding: 1px;
+                    margin: 1px;   
+                }
+
+/*left off*/
+
+    /*div day-box -> div CURRENT*/
+    .day-box .CURRENT
+    {
+        border: 1px solid; 
+        border-color: #f39c12;
+        padding: 1px;
+        margin: 1px;   
+    }
+    /*div day-box -> div COMPLETED*/
+    .day-box .COMPLETED
+    {
+        border: 1px solid; 
+        border-color: #7f8c8d;
+        padding: 1px;
+        margin: 1px;   
+    }
