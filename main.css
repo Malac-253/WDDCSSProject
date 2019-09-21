@@ -134,7 +134,7 @@ body
                 margin: 1px;   
             }
                 /*div day-box -> div PREP -> div prep-box -> a -> div assignmentWidget ASSIGNED*/
-                .day-box .PREP .prep-box .assignmentWidget ASSIGNED
+                .day-box .PREP .prep-box .assignmentWidget
                 {
                     border: 1px solid; 
                     border-color: #2f3640;
@@ -142,7 +142,7 @@ body
                     margin: 1px;   
                 }
                 /*div day-box -> div PREP -> div prep-box -> a -> div -> div assignment-label*/
-                .day-box .PREP .prep-box .assignmentWidget ASSIGNED .assignment-label
+                .day-box .PREP .prep-box .assignmentWidget .assignment-label
                 {
                     border: 1px solid; 
                     border-color: #2fa540;
