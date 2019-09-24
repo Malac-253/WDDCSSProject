@@ -1,6 +1,6 @@
 body
 {
-    background-color: #ecf0f1;
+    background-color:greenyellow;
     border: 1px solid; 
     padding: 10px;
     margin: 10;
@@ -12,6 +12,8 @@ body
     padding: 1px;
     margin: 1px;
     border-color: #1abc9c;
+    align-content: center;
+    background-color:white;
 }
     /*div header -> div person_info*/
     .person_info
@@ -20,14 +22,20 @@ body
         padding: 1px;
         margin: 1px;
         border-color: #1abc9c;
+        align-content: center;
+        background-color: #1abc9c;
     }
     /*div header -> img person_image*/
     .person_image
     {
-        border: 1px solid; 
-        padding: 1px;
+        width: 15%;
+        border: 1px solid;
+        border-color: black;
+        padding: 0px;
         margin: 1px;
-        border-color: #f1c40f;
+        border-color: #55efc4;
+        align-content: center;
+        
     }
     /*div header -> span username*/
     .username
@@ -35,7 +43,9 @@ body
         border: 1px solid; 
         padding: 1px;
         margin: 1px;
-        border-color: #16a085;
+        border-color: #55efc4;
+        background-color: white;
+        align-content: center;
     }
 /*div nav*/
 .nav
@@ -44,6 +54,7 @@ body
     padding: 1px;
     margin: 1px;
     border-color: #3498db;
+    background-color: #55efc4;
 }
     /*div nav -> a */
     .nav > a
@@ -52,6 +63,7 @@ body
         padding: 1px;
         margin: 1px;
         border-color: #8e44ad;
+        background-color: #ffeaa7ff ;
     }
 /*div special*/
 .special
