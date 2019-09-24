@@ -8,42 +8,60 @@ body
 /*div header*/
 .header
 {
-    border: 1px solid; 
-    padding: 1px;
-    margin: 1px;
-    border-color: #1abc9c;
+    /* border: 1px solid; */
+    padding: 5%;
+    margin: 1%;
+    margin-left: 6.25%;
+    width: 74%;
+    /* border-color: #1abc9c; */
     align-content: center;
-    background-color:white;
+    background-color: white;
 }
     /*div header -> div person_info*/
     .person_info
     {
-        border: 1px solid; 
-        padding: 1px;
-        margin: 1px;
-        border-color: #1abc9c;
+        border: 1px solid; */
+        padding: 1%;
+        margin-top: 1%;
+        margin-left: 33%;
+        margin-right: 33%;
+        /* border-color: #1abc9c; */
         align-content: center;
-        background-color: #1abc9c;
+        background-color: #55efc4ff;
+        border-radius: 20px;
+        width: 31%;
+        height: 100%;
+        margin-bottom: 5%;
     }
     /*div header -> img person_image*/
     .person_image
     {
-        width: 15%;
-        border: 1px solid;
+        width: 100%;
+        /* border: 1px solid; */
         border-color: black;
         padding: 0px;
-        margin: 1px;
-        border-color: #55efc4;
+        /* margin-top: 5%; */
+        /* border-color: #55efc4; */
         align-content: center;
+        height: 100%;
+        border-radius: 15px;
+        /* margin-left: 15%; */
+        /* margin-right: 15%; */
+        /* margin-bottom: 20%; */
         
     }
     /*div header -> span username*/
     .username
     {
-        border: 1px solid; 
-        padding: 1px;
-        margin: 1px;
-        border-color: #55efc4;
+        /* border: 1px solid; */
+        padding: 02%;
+        margin-top: 5%;
+        margin-left: 31.5%;
+        margin-right: 31.5%;
+        /* width: 100%; */
+        font-size: 120%;
+        border-radius: 10px;
+        /* border-color: #55efc4; */
         background-color: white;
         align-content: center;
     }
