@@ -127,16 +127,36 @@ body
 h1 {
     display: block;
     font-size: 2em;
-    margin:auto;
+    margin: 2%;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    width: 20%;
+    margin-left: 40%;
+    border-radius: 10px;
     font-weight: bold;
+    font-family: sans-serif;
+    background-color: white;
+    border: 10px solid #55efc4ff;
 }
 /*div day-box*/
 .day-box
 {
-    border: 1px solid; 
+    border: 1px solid;
     border-color: #e67e22;
     padding: 1px;
-    margin: 1px;   
+    margin: 1px;
+    border: 15px solid;
+    border-color: #9aecdbff;
+    border-top: 70px solid #9aecdbff;
+    padding: 1%;
+    padding-top: 0;
+    margin: 1px;
+    margin-top: 3%;
+    background-color: white;
+    border-radius: 25px;
+    height: 300px;
+    align-items: center;
 }
     /*div day-box -> day-box PREP*/
     .PREP
@@ -150,7 +170,7 @@ h1 {
         background-color: white;
         border-radius: 25px;
         height: 200px;
-        align-items: center;  
+        align-items: center;
     }
         /*div day-box -> div PREP -> div day */
         .day
@@ -159,11 +179,11 @@ h1 {
             /* border-top: 10px solid; */
             border-color: #9aecdbff;
             padding: 0.55%;
-            padding-left: 5%;
+            /* padding-left: 5%; */
             padding-right: 1%;
             margin: 1%;
             /* margin-bottom: 2%; */
-            margin-top: -4%;
+            margin-top: -3%;
             /* margin-left: -1.5%; */
             background-color: white;
             width: 31%;
@@ -171,6 +191,7 @@ h1 {
             align-items: center;
             align-self: center;
             font-weight: 600;
+            font-family: sans-serif;
         }
             /*div day-box -> div PREP -> div day -> div notes */
             .notes
@@ -181,16 +202,17 @@ h1 {
                 margin: 1px;
                 background-color: darkgray;
                 /* float: right; */
-                width: 200px;
+                /* width: 200px; */
+                font-family: sans-serif;
                 /* height: 5px; */
             }
         /*div day-box -> div PREP -> div .reading-box */
         .reading-box
         {
             /* border: 1px solid; */
-            border-color: #4cd137;
-            padding: 1px;
-            margin: 1px;
+            /* border-color: #4cd137; */
+            /* padding: 1px; */
+            /* margin: 1px; */
             /* float: left; */
             /* width: 25%; */
             /* overflow: auto; */
@@ -201,11 +223,12 @@ h1 {
             {
                 /* border: 1px solid; */
                 /* border-color: #487eb0; */
-                padding: 1px;
-                float: none;
-                /* width: 70%; */
+                /* padding: 1px; */
+                float: left;
+                width: 49%;
+                margin: 1px;
                 background-color: #cfe2f3ff;
-                height: 90%;
+                height: 100%;
                 text-align: center;
                 font-size: x-large;
             }
@@ -229,33 +252,36 @@ h1 {
             /* border-color: #273c75; */
             padding: 1px;
             background-color: aliceblue;
-            margin: 1px;
-            /* width: 25%; */
-            /* float: right; */
+            margin-top: 0.75%;
+            width: 100%;
+            float: right;
         }
             /*div day-box -> div PREP -> div prep-box -> a assignment_link*/
             .assignment_link
             {
-                border: 1px solid; 
-                border-color: #487eb0;
-                padding: 1px;
-                margin: 1px;   
+                /* border: 1px solid; */
+                /* border-color: #487eb0; */
+                /* padding: 1px; */
+                /* margin: 1px; */
             }
                 /*div day-box -> div PREP -> div prep-box -> a -> div assignmentWidget ASSIGNED*/
                 .assignmentWidget
                 {
-                    border: 1px solid; 
-                    border-color: #2f3640;
+                    /* border: 1px solid; */
+                    /* border-color: #2f3640; */
                     padding: 1px;
-                    margin: 1px;   
+                    height: 100%;
+                    margin: 1px;
                 }
                 /*div day-box -> div PREP -> div prep-box -> a -> div -> div assignment-label*/
                 .assignment-label
                 {
-                    border: 1px solid; 
-                    border-color: #2fa540;
+                    /* border: 1px solid; */
+                    /* border-color: #2fa540; */
                     padding: 1px;
-                    margin: 1px;   
+                    margin: 4px;
+                    width: 15%;
+                    height: 70%;
                 }
 
 /*left off*/
