@@ -155,22 +155,21 @@ h1 {
     margin-top: 3%;
     background-color: white;
     border-radius: 25px;
-    height: 300px;
+    height: 375px;
     align-items: center;
 }
     /*div day-box -> day-box PREP*/
     .PREP
     {
-        border: 15px solid;
-        border-color: #9aecdbff;
-        border-top: 70px solid #9aecdbff;
-        padding: 1%;
-        padding-top: 0;
-        margin: 1px;
-        background-color: white;
-        border-radius: 25px;
-        height: 200px;
-        align-items: center;
+        /* border: 15px solid; */
+        /* border-color: #9aecdbff; */
+        /* border-top: 70px solid #9aecdbff; */
+        /* padding: 1%; */
+        /* padding-top: 0; */
+        /* margin: 1px; */
+        /* background-color: white; */
+        /* border-radius: 25px; */
+        /* align-items: center; */
     }
         /*div day-box -> div PREP -> div day */
         .day
@@ -200,7 +199,7 @@ h1 {
                 /* border-color: #9c88ff; */
                 padding: 1px;
                 margin: 1px;
-                background-color: darkgray;
+                background-color: gainsboro;
                 /* float: right; */
                 /* width: 200px; */
                 font-family: sans-serif;
@@ -209,14 +208,15 @@ h1 {
         /*div day-box -> div PREP -> div .reading-box */
         .reading-box
         {
-            /* border: 1px solid; */
+            border-top: 2px solid gainsboro;
             /* border-color: #4cd137; */
-            /* padding: 1px; */
-            /* margin: 1px; */
+            padding: 1px;
+            /* margin: 1%; */
             /* float: left; */
             /* width: 25%; */
             /* overflow: auto; */
-            height: 25%;
+            /* height: 25%; */
+            font-family: sans-serif;
         }
             /*div day-box -> div PREP -> div .reading-box -> div reading  */
             .reading
@@ -226,11 +226,12 @@ h1 {
                 /* padding: 1px; */
                 float: left;
                 width: 49%;
-                margin: 1px;
+                margin: 0.5%;
                 background-color: #cfe2f3ff;
                 height: 100%;
                 text-align: center;
                 font-size: x-large;
+                border-radius: 10px;
             }
                 /*div day-box -> div PREP -> div .reading-box -> div reading -> div assignment-label */
                 .assignment-label
@@ -248,13 +249,17 @@ h1 {
         /*div day-box -> div PREP -> div prep-box */
         .prep-box
         {
-            /* border: 1px solid; */
+            border-top: 2px solid gainsboro;
             /* border-color: #273c75; */
             padding: 1px;
-            background-color: aliceblue;
+            /* background-color: aliceblue; */
             margin-top: 0.75%;
             width: 100%;
             float: right;
+            /* margin-bottom: 1%; */
+            border-radius: 10px;
+            border-top-right-radius: 0;
+            border-top-left-radius: 0px;
         }
             /*div day-box -> div PREP -> div prep-box -> a assignment_link*/
             .assignment_link
@@ -269,22 +274,52 @@ h1 {
                 {
                     /* border: 1px solid; */
                     /* border-color: #2f3640; */
-                    padding: 1px;
+                    padding: 2px;
                     height: 100%;
-                    margin: 1px;
+                    margin-top: 0.40%;
+                    width: 100%;
+                    font-family: sans-serif;
+                    font-size: x-large;
+                    color: black;
+                    float: left;
+                    background-color: aliceblue;
+                    border-radius: 10px;
+                    height: 115%;
                 }
                 /*div day-box -> div PREP -> div prep-box -> a -> div -> div assignment-label*/
                 .assignment-label
                 {
-                    /* border: 1px solid; */
-                    /* border-color: #2fa540; */
-                    padding: 1px;
+                    border: 11px solid;
+                    border-color: white;
+                    /* padding: 1px; */
                     margin: 4px;
-                    width: 15%;
-                    height: 70%;
+                    width: 20%;
+                    height: 50%;
                 }
-
-/*left off*/
+        /*div day-box-> div grading-box */
+        .grading-box
+        {
+            /* border: 1px solid; */
+            padding: 1px;
+            background-color: ALICEBLUE;
+            margin-top: 0.40%;
+            width: 100%;
+            border-radius: 10px;
+            float: left;
+            font-size: x-large;
+            font-family: sans-serif;
+        }
+        /*div day-box-> div lab-box */
+        .lab-box
+        {
+        /* border: 1px solid; */
+        /* border-color: #f39c12; */
+        /* padding: 1px; */
+        /* margin: 1px; */
+        /* height: 50px; */
+        border-radius: 10px;
+        /* margin-top: 1%; */
+        }
 
     /*div day-box -> div CURRENT*/
     .day-box .CURRENT
