@@ -36,7 +36,7 @@ body
         /* margin-right: 3%;*/
         /* border-color: #1abc9c; */
         align-content: center;
-        background-color: #55efc4ff;
+        background-color: #9aecdbff;
         border-radius: 20px;
         width: 10%;
         /* height: 90%; */
@@ -137,7 +137,7 @@ h1 {
     font-weight: bold;
     font-family: sans-serif;
     background-color: white;
-    border: 10px solid #55efc4ff;
+    border: 10px solid #9aecdbff;
 }
 /*div day-box*/
 .day-box
